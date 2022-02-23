@@ -1,0 +1,145 @@
+
+@charset"utf-8"; /****   Developed by http://www.freetimelearning.com/    *****/
+/* CSS Document */
+/* (#) means ID Based */
+/* (.) means class Based */
+*{
+  margin-left:auto;
+  margin-right:auto;
+}
+.row{margin:0px;}
+body{font-family:Arial, Helvetica, sans-serif; margin:0pxauto!important;}
+.main{margin:0pxauto; 
+  -webkit-box-shadow: 06px10px0rgba(0, 0, 0, 0.14), 01px18px0rgba(0, 0, 0, 0.12), 03px5px-1pxrgba(0, 0, 0, 0.3)!important; 
+  box-shadow: 06px10px0rgba(0, 0, 0, 0.14), 01px18px0rgba(0, 0, 0, 0.12), 03px5px-1pxrgba(0, 0, 0, 0.3)!important;
+}
+.p10_0{ padding:10px0px;} .p20_0{ padding:20px0px;}.p30_0{ padding:30px0px;} 
+.p40_0{padding:40px0px;} .p50_0{ padding:50px0px;}
+.clearfix{clear:both;}
+
+
+.header{padding:10px0px; background:url(../images/home-bg.jpg); height:500px; background-attachment:fixed;}
+.header-left{padding:15px20px;}
+.header-right{padding-top:50px;}
+.white{color:#FFF; text-decoration:none;}
+.whitea{color:#FFF; text-decoration:none;}
+.whitea:hover{ color:#CCC;}
+
+.header-bottom{padding:75px0px20px;}
+.header-font{color:#FFF; text-align:center; font-size:48px; text-transform:uppercase; font-weight:bold; padding:0px;}
+.header-btns{color:#FFF; font-size:16px; font-weight:500; border:1pxsolid #FFF; 
+padding:10px30px; text-decoration:none; border-radius:2px;}
+.header-btns:hover{ background:#7db549; color:#FFF; border:1pxsolid #7db549; text-decoration:none;}
+
+.navbar-brand {
+    float: left;
+    height: 65px;
+    padding: 5px15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-default{
+  border-radius:2px; 
+  background:none; 
+  margin-bottom:0px; 
+  border:none!important;
+}
+.navbar-defaultul{padding:9px0px5px;}
+.navbar-default.navbar-nav>li>a{
+  color:#FFF; 
+  padding:6px22px; 
+  font-size:14px;
+  margin:5px14px0px; 
+  border:1pxsolid #FFF; border-radius:2px;
+}
+.navbar-default.navbar-nav>li>a:hover{background:#7db549 !important; color:#FFF;}
+.navbar-default.navbar-collapse, .navbar-default.navbar-form{
+    border-color: #e7e7e7;
+}
+.navbar-default.navbar-nav>.open>a, .navbar-default.navbar-nav>.open>a:focus, .navbar-default.navbar-nav>.open>a:hover{
+  border:1pxsolid #7db549;
+  }
+.navbar-toggle{margin-top:-20px;}
+@mediaonlyscreenand (min-width:320px) and (max-width:480px){ 
+.logo{padding:10px0px0px;}
+.header-right{padding-top:0px;}
+.header-font{font-size:28px;}
+.header-btns{padding:6px10px;}
+}
+@mediaonlyscreenand (min-width:600px) and (max-width:768px){
+.header{padding:10px0px; height:350px;}
+.navbar-default.navbar-nav>li>a{padding:7px6px; font-size:11px; margin:5px5px0px;}
+.header-right{padding-top:15px;}
+.header-font{font-size:28px;}
+.header-btns{padding:8px20px;}
+}
+@mediaonlyscreenand (min-width:1025px) and (max-width:1280px){
+  .navbar-default.navbar-nav>li>a{padding:7px15px; font-size:11px; margin:5px10px0px;}
+  .header-right{padding-top:45px;}
+   }
+@mediaonlyscreenand (min-width:960px) and (max-width:1024px){
+  .header{padding:10px0px; height:400px;}
+  .navbar-default.navbar-nav>li>a{padding:7px15px; font-size:11px; margin:5px10px0px;}
+  .header-font{font-size:34px;}
+  .header-right{padding-top:35px;}
+   }
+
+
+.content-part-1-left-h3{font-size:28px; color:#7db549; font-weight:500; padding-top:120px; padding-left:10px;}
+.content-part-1-left-p{font-size:14px; text-align:justify; color:#000; font-weight:500; line-height:26px; padding:10px12px;}
+.content-part-1-left-btn{font-size:16px; font-weight:500; border:1pxsolid #7db549; color:#FFF; 
+padding:10px30px; text-decoration:none; border-radius:2px; background:#7db549; margin:0px10px;}
+.content-part-1-left-btn:hover{ background:#689242;}
+.content-part-1-right{padding-top:10px;}
+@mediaonlyscreenand (min-width:320px) and (max-width:480px){
+  .content-part-1-left-h3{padding-top:30px; font-size:20px; text-align:center; }
+  }
+@mediaonlyscreenand (min-width:600px) and (max-width:768px){
+  .content-part-1-left-h3{padding-top:20px; font-size:24px;}
+  .content-part-1-right{padding-top:80px;}
+  }
+
+
+.content-part-2{ padding:10px0px; background:url(../images/content-bg.jpg)no-repeat; height:600px; background-position:center  bottom; background-attachment:fixed;}
+.interior-font{font-size:36px; text-transform:uppercase; padding:20px0px30px; font-weight:600;
+text-align:center; color:#000; text-shadow: 2px2px3px #333;}
+.content-part-2-inner{background-color: rgba(255,255,255,.5); padding:20px0px20px; margin:50px150px; float:left;
+border-radius:3px;}
+.content-interior{padding:10px25px; float:left;}
+.content-interior-h3{color:#000; font-size:18px; text-shadow: 2px2px3px #333; padding:10px0px; text-align:center;}
+.content-interior-p{color:#000; padding:5px0px10px; font-size:14px; line-height:26px; text-align:justify;}
+@mediaonlyscreenand (min-width:320px) and (max-width:480px){
+  .content-part-2{ padding:10px0px; height:1000px;}
+  .content-part-2-inner{padding:20px0px; margin:50px20px;}
+  }
+@mediaonlyscreenand (min-width:600px) and (max-width:768px){
+  .content-part-2-inner{padding:20px0px; margin:50px50px;}
+
+.img{width:90%; height:auto;}
+.content-part-3{ padding:30px0px!important; float:left;}
+.content-part-3-inner{padding:10px0px;}
+.content-part-3-right-h4{font-weight:600; color:#000; padding:0px;}
+.margin_5{margin:5px0px; float:left;}
+.margin_p3{margin:10px0px5px;}
+.price{color:#000; padding:5px0px; font-weight:bold; font-size:15px;}
+.green{color:#7db549; font-weight:bold; font-size:16px;}
+.order-now{color:#FFF; background:#7db549; padding:5px15px; border-radius:2px; text-decoration:none; margin:5pxauto;}
+.order-now:hover{background:#689242;}
+@mediaonlyscreenand (min-width:320px) and (max-width:480px){
+  .img{width:100%;}
+  }
+@mediaonlyscreenand (min-width:600px) and (max-width:768px){
+  .img{width:96%; border-radius:3px;}
+  .content-part-3-right-h4{font-weight:600; color:#000; padding:5px0px0px;}
+  }
+
+.footer{padding:20px0px; background:#333;}
+.footer-parts-h3{font-size:18px; font-weight:600; color:#FFF; padding:10px0px;}
+.footer-parts-p{color:#000; line-height:24px; text-align:justify; color:#FFF;}
+.footer-icons{list-style:none;}
+.footer-iconsul{list-style:none; padding:0px;}
+.footer-iconsulli{float:left; padding:0px25px0px5px; text-transform:uppercase;}
+.footer-iconsullia{color:#FFF; font-weight:600; font-size:18px;}
+.footer-iconsullia:hover{ color:#CCC;}
+.footer-bottom{padding:15px; text-align:center; color:#FFF; font-size:13px; background:#000;}
+
